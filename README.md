@@ -1,3 +1,77 @@
+# The Prompt
+
+Create a complete web app using React and Vite for an AI-powered DJ that mixes music based on the user’s mood. The app should:
+
+➡️ TECH & FRAMEWORK
+- Use React + Vite as the front-end framework.
+- TailwindCSS for responsive, mobile-friendly styling.
+- Include Framer Motion for subtle animations.
+- Include a favicon and appropriate Open Graph meta tags.
+
+➡️ FEATURES
+- Let users select or input their current **mood** (emoji selector).
+- Based on the mood, fetch and display a dynamic playlist (use a mock JSON or public music API placeholder with BYO API key integration).
+- Display album art, track title, artist name, and duration.
+- Provide basic audio player controls (play, pause, skip).
+- Include a "shuffle" button to remix suggestions based on similar moods.
+
+➡️ CONFIG / ENV
+- Include support for `.env` with a placeholder for a BYO (bring-your-own) API key.
+- Fallback to static JSON for development if API key is not present.
+
+➡️ UI/UX
+- Mobile-first responsive layout.
+- Hero section with title: "VibeMixer – Let AI Be Your DJ"
+- Mood input and playlist visible on the same screen.
+- Display a short mood-based quote or vibe message under the playlist.
+- Include smooth transitions between mood changes and playlist refreshes.
+
+➡️ META
+- Add favicon (use any placeholder icon).
+- Include Open Graph tags: title, description, image, and URL.
+- Add meta tags for responsive mobile support and social sharing optimization.
+
+➡️ STRUCTURE
+- Organize components into folders: components/, pages/, hooks/, assets/
+- Provide a utils file for API and mood mapping logic.
+
+➡️ BONUS
+- Add a "Save to Spotify" button (non-functional placeholder).
+- Light/dark mode toggle.
+
+Name the project folder `vibemixer-ai`.
+
+Example output directory:
+
+```bash
+vibemixer-ai/
+├── index.html
+├── vite.config.ts
+├── public/
+│   └── favicon.ico
+├── src/
+│   ├── main.tsx
+│   ├── App.tsx
+│   ├── assets/
+│   ├── components/
+│   │   └── MoodSelector.tsx
+│   │   └── Player.tsx
+│   │   └── Playlist.tsx
+│   ├── hooks/
+│   │   └── useMoodPlaylist.ts
+│   ├── pages/
+│   │   └── Home.tsx
+│   ├── utils/
+│   │   └── api.ts
+│   │   └── moodMap.ts
+│   ├── styles/
+│   │   └── index.css (Tailwind)
+├── .env.example
+├── package.json
+├── README.md
+```
+
+---
 # VibeMixer - AI-Powered DJ 🎵
 
 VibeMixer is a beautiful, AI-powered music discovery app that creates personalized playlists based on your current mood. Built with React, Vite, and Tailwind CSS, it features a modern glassmorphism design with smooth animations.

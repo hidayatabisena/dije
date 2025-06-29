@@ -35,8 +35,7 @@ const Player: React.FC<PlayerProps> = ({
   formatTime
 }) => {
   const [showVolumeSlider, setShowVolumeSlider] = useState(false);
-
-  // Ensure we have a valid track before rendering
+  
   if (!track || !track.albumArt) {
     return null;
   }
