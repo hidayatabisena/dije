@@ -76,6 +76,14 @@ vibemixer-ai/
 
 VibeMixer is a beautiful, AI-powered music discovery app that creates personalized playlists based on your current mood. Built with React, Vite, and Tailwind CSS, it features a modern glassmorphism design with smooth animations.
 
+![Screenshot 1](https://res.cloudinary.com/moyadev/image/upload/v1751208150/maia/Brave_Browser_at_09.38_PM_nqrgbm.jpg)
+
+![Screenshot 2](https://res.cloudinary.com/moyadev/image/upload/v1751208168/maia/Brave_Browser_at_09.38_PM_2_uf9v9i.jpg)
+
+![Screenshot 3](https://res.cloudinary.com/moyadev/image/upload/v1751208167/maia/Brave_Browser_at_09.39_PM_fvolga.jpg)
+
+![Screenshot 4](https://res.cloudinary.com/moyadev/image/upload/v1751208170/maia/Brave_Browser_at_09.39_PM_2_ri3n2s.jpg)
+
 ## Features ✨
 
 - **Mood-Based Playlists**: Select your current mood and get AI-curated playlists
