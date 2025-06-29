@@ -1,0 +1,37 @@
+@tailwind base;
+@tailwind components;
+@tailwind utilities;
+
+@layer base {
+  html {
+    scroll-behavior: smooth;
+  }
+  
+  body {
+    @apply transition-colors duration-300;
+  }
+}
+
+@layer components {
+  .glass {
+    @apply backdrop-blur-md bg-white/10 dark:bg-gray-800/20 border border-white/20 dark:border-gray-600/30;
+  }
+  
+  .gradient-bg {
+    @apply bg-gradient-to-br from-pink-500 via-rose-500 to-fuchsia-500 animate-gradient;
+  }
+  
+  .mood-card {
+    @apply p-4 rounded-xl glass hover:bg-white/20 dark:hover:bg-gray-700/30 transition-all duration-300 cursor-pointer border hover:border-white/40 dark:hover:border-gray-500/50;
+  }
+  
+  .player-control {
+    @apply p-3 rounded-full bg-white/20 dark:bg-gray-700/30 backdrop-blur-sm hover:bg-white/30 dark:hover:bg-gray-600/40 transition-all duration-200 hover:scale-105 active:scale-95;
+  }
+}
+
+@layer utilities {
+  .text-gradient {
+    @apply bg-gradient-to-r from-pink-600 to-fuchsia-600 bg-clip-text text-transparent;
+  }
+}
